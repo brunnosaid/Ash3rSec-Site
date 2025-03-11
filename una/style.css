@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffe6e6; /* Vermelho claro suave */
+}
+
+.logo-container {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-top: 5px solid #b30000; /* Vermelho escuro */
+    margin-top: 20px;
+}
+
+h1 {
+    color: #b30000; /* Vermelho escuro */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #b30000;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #b30000; /* Vermelho escuro */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cc0000; /* Vermelho médio */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #b30000; /* Vermelho escuro */
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #cc0000; /* Vermelho médio */
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #990000; /* Vermelho ainda mais escuro */
+}
+
+/* .logo {
+    width: 100px;  Ajuste o tamanho conforme necessário 
+    margin-bottom: 20px;
+}
+*/
+
+.content {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.image {
+    width: 550px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.instruction {
+    color: #cc0000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: justify-all;
+}
+
+.form-instruction {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffff; /* Fundo branco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-top: 5px solid #b30000; /* Vermelho escuro */
+    margin-top: 50px;
+}

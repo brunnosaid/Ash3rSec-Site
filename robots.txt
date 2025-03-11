@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: flag2.txt
+Disallow: /s3cr3t/
+Disallow: /files/
+Disallow: /search/

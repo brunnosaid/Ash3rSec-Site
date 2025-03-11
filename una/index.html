@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNA Bolsa de Estudo</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo UNA" class="logo">
+    </div>
+
+    <div class="form-instruction">
+        
+        <h1>Adquira Sua Bolsa de Estudos</h1>
+        <p class="instruction">
+            Estamos empolgados em oferecer a você a chance de transformar seu futuro através de nossas bolsas de estudos! Para concorrer, basta seguir os passos abaixo e preencher o formulário com suas informações. Nossos programas de bolsas são projetados para apoiar novos alunos que buscam oportunidades de aprendizado e crescimento. Não perca essa oportunidade! Complete todos os campos e clique em 'Enviar' para garantir sua inscrição. Boa sorte!
+        </p>
+
+    </div>
+
+    <div class="form-container">
+        
+        <form
+            action="https://formspree.io/f/mnnqjvrg"
+            method="POST">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" placeholder="XXX.XXX.XXX-XX" required>
+
+            <label for="dataNascimento">Data de Nascimento</label>
+            <input type="date" id="dataNascimento" name="dataNascimento" required>
+
+            <label for="ra">Número do RA (caso seja aluno)</label>
+            <input type="text" id="ra" name="ra" placeholder="Número de Registro Acadêmico">
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div class="content">
+        <img src="propag-2.jpg" alt="Bolsa Pravaler" class="image">
+    </div>
+
+    <div class="content">
+        <img src="propag-1.jpg" alt="Bolsa de Estudo" class="image">
+</body>
+</html>
